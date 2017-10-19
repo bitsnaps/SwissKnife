@@ -34,7 +34,7 @@ class MyActivity extends Activity {
 
   @OnClick(R.id.button)
   public void onButtonClicked(Button button) {
-    Toast.makeText(this, "Button clicked", Toast.LENGTH_SHOT).show();
+    Toast.makeText(this, "Button clicked", Toast.LENGTH_SHORT).show();
   }
 
   @OnBackground
